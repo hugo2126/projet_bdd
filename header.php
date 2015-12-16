@@ -4,42 +4,46 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="css/fichier.css" />
 		<link rel="stylesheet" href="css/font-awesome.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
         <title></title>
     </head>
-
     <body>
-        
-		<div id="header">
-		
-			<div id="titre">
-				<i class="fa fa-calendar"></i> &nbsp &nbsp &nbsp &nbsp &nbsp Community Events &nbsp &nbsp &nbsp &nbsp &nbsp <i class="fa fa-male"></i><i class="fa fa-female"></i>
+        <div class="container-fluid">
+			<div class="row">
+				<div id="titre" class="col-md-12">
+					<div class="col-lg-3 col-md-2 text-left"><i class="fa fa-calendar"></i></div>
+					<div class="col-lg-6 col-md-8 text-center">Community Events</div>
+					<div class="col-lg-3 col-md-2 text-right"><i class="fa fa-male"></i><i class="fa fa-female"></i></div>
+				</div>
+				<br>
+				<div class="col-md-12">
+					<ul id="menu-deroulant">
+						<div class="col-md-6 col-sm-6 text-center">
+							<li><a href="#">Lien menu 1</a>
+								<ul>
+									<li><a href="#">lien sous menu 1</a></li>
+									<li><a href="#">lien sous menu 1</a></li>
+									<li><a href="#">lien sous menu 1</a></li>
+									<li><a href="#">lien sous menu 1</a></li>
+								</ul>
+							</li>
+						</div>
+						<div class="col-md-6 col-sm-6 text-center">
+							<li><a href="#">Lien menu 2</a>
+								<ul>
+									<li><a href="#">Lien sous menu 2</a></li>
+									<li><a href="#">Lien sous menu 2</a></li>
+									<li><a href="#">Lien sous menu 2</a></li>
+									<li><a href="#">Lien sous menu 2</a></li>
+								</ul>
+							</li>
+						</div>
+					</ul>
+				</div>
 			</div>
-			
-			<br>
-			
-			<ul id="menu-deroulant">
-			<li><a href="#">Lien menu 1</a>
-			<ul>
-			<li><a href="#">lien sous menu 1</a></li>
-			<li><a href="#">lien sous menu 1</a></li>
-			<li><a href="#">lien sous menu 1</a></li>
-			<li><a href="#">lien sous menu 1</a></li>
-			</ul>
-			</li>
-			<li><a href="#">Lien menu 2</a>
-			<ul>
-			<li><a href="#">Lien sous menu 2</a></li>
-			<li><a href="#">Lien sous menu 2</a></li>
-			<li><a href="#">Lien sous menu 2</a></li>
-			<li><a href="#">Lien sous menu 2</a></li>
-			</ul>
-			</li>
-			</ul>
-			</div>
-  
+		</div>
 		<div id="footer">
 		<!-- Ton footer -->
 		</div>
-
     </body>
 </html>
